@@ -1,0 +1,4 @@
+,UID,Name,DOB,Sex,SSN,Address,Country,verdict
+0,4236,Mohammed Ali Ahmed ,1999/05/08,M,98765432,"225 Syracuse Place Richardson, TX 75081 United States",India,RiskEntity
+1,71367,WAHHABI STUDY CENTER,1999/05/08,M,9876543243,"Blvd. Cuauhtemoc 1711, Oficina 305, Colonia Zona Rio Tijuana, Baja California Mexico",Mexico,RiskEntity
+2,71367,WAHHABI STUDY CENTER,1999/05/08,M,9876543243,"Blvd. Cuauhtemoc 1711, Oficina 305, Colonia Zona Rio Tijuana, Baja California Mexico",Iraq,RiskEntity

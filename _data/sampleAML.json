@@ -1,0 +1,36 @@
+{
+	"Flow":{
+	"NameModule":[
+
+	{
+	"IfYes":"Country",
+	"IfNo":"FalsePositive"
+	}],
+
+	"DOB":[
+
+	{
+	"IfYes":"Address",
+	"IfNo":"FalsePositive"
+	}],
+
+	"Address":[
+	{
+	"IfYes":"SSN",
+	"IfNo":"FalsePositive"
+	}
+	],
+
+	"SSN":[
+	{
+	"IfYes":"RiskEntity",
+	"IfNo":"Country"
+	}],
+	"Country":[
+
+	{
+	"IfYes":"RiskEntity",
+	"IfNo":"DOB"
+	}]},
+"FirstModuleToProcess":"NameModule"
+}

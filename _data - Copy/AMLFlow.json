@@ -1,0 +1,25 @@
+{
+	"Flow": {
+		"CountryCheck": [{
+			"IfYes": "Escalate",
+			"IfNo": "SSNCheck"
+		}],
+		"SSNCheck": [{
+			"IfYes": "Escalate",
+			"IfNo": "D.O.B.Check"
+		}],
+		"D.O.B.Check": [{
+			"IfYes": "NameCheck",
+			"IfNo": "Clear"
+		}],
+		"NameCheck": [{
+			"IfYes": "AddressCheck",
+			"IfNo": "Clear"
+		}],
+		"AddressCheck": [{
+			"IfYes": "Escalate",
+			"IfNo": "Clear"
+		}]
+	},
+	"FirstModueToProcess": "CountryCheck"
+}
